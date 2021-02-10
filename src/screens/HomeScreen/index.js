@@ -1,8 +1,13 @@
 import React from 'react'
 import {Text} from 'react-native'
-function HomeScreen() {
+
+import Stories from '../../components/Stories'
+
+function HomeScreen(){
     return (
-        <Text>Hello world</Text>
+        <>
+            <Stories/>
+        </>
     )
 }
 
